@@ -15,14 +15,14 @@ Unlike standard "smart bulbs" that rely on rigid schedules, SmartLum uses **Sign
 
 ## 🛠️ Tech Stack
 * **Hardware:** ESP32 Microcontroller, TCS34725 RGB Sensor, NeoPixel LED Ring (WS2812B).
-* **Firmware:** C++ / Arduino Framework.
+* **Firmware:** MicroPython Framework.
 * **Machine Learning:** Python, Scikit-Learn, Pandas (for synthetic data generation and training).
 * **Data Processing:** NumPy, Matplotlib.
 
 ## 📂 Repository Structure
 ```text
 TECHIN513-SmartLum/
-├── firmware/           # ESP32 C++ code for sensor reading & LED control
+├── firmware/           # ESP32 MicroPython code for sensor reading & LED control
 │   └── main.ino
 ├── ml_model/           # Python scripts for data generation & model training
 │   ├── synthetic_data_gen.py   # Generates training dataset based on circadian logic
